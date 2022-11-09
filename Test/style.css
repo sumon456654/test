@@ -1,0 +1,171 @@
+.cont{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: blueviolet;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+.menu{
+float: right;
+}
+.menu ul{
+    color: white;
+    padding-top: 40px;
+}
+.menu li{
+    display: inline-block;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.slider{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(91, 32, 255, .8), rgb(17, 255, 215, .8)), url(./IMAGE/our_pride.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider h1{
+    position: absolute;
+    top: 38%;
+    left: 44%;
+}
+.slider p{
+    position: absolute;
+    top: 44%;
+    left: 41%;
+    text-align: center;
+}
+.slider a{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: green;
+}
+.slider a:hover{
+    background-color: tomato;
+}
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mein-title{
+    text-align: center;
+}
+span{
+    color: tomato;
+}
+.card img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid tomato;
+    border-radius: 30px;
+}
+.card{
+    background-color: rgb(61, 63, 202);
+    text-align: center;
+    padding: 10px;
+}
+.service-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 5px;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border: 2px solid tomato;
+    border-radius: 30px;
+    background-color: green;
+}
+.card a:hover{
+    background-color: tomato;
+}
+footer{
+    width: 1200px;
+    margin: 20px auto;
+}
+.footer-box img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid tomato;
+}
+.footer-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33%, auto));
+    gap: 0.3%;
+    background-color: ;
+    color: white;
+}
+.social{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(5%, auto));
+    gap: 10px;
+    text-align: center;
+}
+.Address{
+    background-color: blue;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.social img{
+    position: relative;
+    top: 10px;
+}
+.footer-bottom{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(206, 206, 200);
+    margin: 0 auto;
+}
+.footer-bottom p{
+    position: relative;
+    text-align: center;
+    top: 18px;
+}
+.animate{
+    animation: 7s mov linear infinite;
+    position: relative;
+ }
+ @keyframes mov{
+/*    from{background-color: aqua;}
+    to{background-color: chartreuse;}*/
+    /* 0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;} */
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:100%; top:0px;}
+    50%  {background-color:blue; left:100%; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+
+ }
+
+
